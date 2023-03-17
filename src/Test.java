@@ -43,9 +43,9 @@ class Teste {
         for (int i = 0;i<students.size(); i++) {
             System.out.println("Nome: " + students.get(i).getName());
             System.out.println("Curso: " + students.get(i).getCourse().getCourseDescription());
-            System.out.println(students.get(i).getCourse().getConclusionWork().getWorkTitle());
-            System.out.println();
-            System.out.println();
+            // System.out.println(students.get(i).getCourse().getConclusionWork().getWorkTitle());
+            // System.out.println();
+            // System.out.println();
         }
 
     }

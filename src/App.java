@@ -65,7 +65,7 @@ class Course {
     }
 
     public String getCourseDescription() {
-        return ("Curso: " + this.courseLevel + " em " + this.courseName +"\n");
+        return (this.courseLevel + " em " + this.courseName +"\n");
     }
 
     public int getConclusionYear() {
